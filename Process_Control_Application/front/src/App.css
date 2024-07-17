@@ -1,0 +1,119 @@
+/* Stylowanie formularza */
+.form-input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cfcedff6;
+  width: calc(100% - 22px); /* Dostosowanie szerokości, aby uwzględnić padding i border */
+}
+
+/* Stylowanie przycisku Start */
+button {
+  background-color: #f9f9fb99;
+  border: none;
+  color: rgb(15, 9, 9);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+navigation-button {
+  background-color: #a6a7af99;
+  border: none;
+  color: rgb(15, 9, 9);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* Stylowanie tabeli wyników */
+table {
+  border-collapse: collapse;
+  width: 30%;
+  margin-top: 20px; /* Dodanie odstępu na górze tabeli */
+}
+
+th, td {
+  border: 1px solid rgb(58, 15, 15);
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #2e77bb68; /* Dodanie tła dla nagłówków tabeli */
+}
+
+.label-background {
+  background-color: #05060c; /*kolor niebieski */
+  padding: 5px; /* Dodaj trochę paddingu dookoła tekstu */
+  border-radius: 5px; /* Opcjonalnie, zaokrąglenie rogów dla estetyki */
+  color: #ffffff;; /* Biały kolor tekstu dla lepszej czytelności */
+  margin-bottom: 5px; /* Dodaj odstęp między etykietą a polem input */
+  display: inline-block; /* Umożliwia stosowanie paddingu i border-radius */
+}
+/*.App-button {
+  margin-right: 20px; /* Dodaje odstęp po prawej stronie każdego przycisku 
+}
+*/
+.button-spacing {
+  margin-right: 20px; /* Dodaje odstęp po prawej stronie */
+}
+
+.upload-section {
+  margin-top: 90px;  /* Dostosuj wielkość odstępu według potrzeb */
+}
+.message {
+  margin-top: 10px;  /* Dostosuj zgodnie z potrzebami */
+  margin-bottom: 10px;  /* Zmniejszenie odstępu pomiędzy komunikatem a przyciskiem */
+ }
+
+ .Upload-button {
+  margin-right: 20px;
+  color: #ffffff; /* Biały tekst dla przycisków */
+  background-color: #007bff; /* Niebieskie tło dla przycisków */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.App-header {
+  background-color: #282c34; /* Ciemne tło */
+  color: #61dafb; /* Jasny kolor tekstu */
+  padding: 20px;
+  text-align: center;
+}
+
+.App-button {
+  margin-right: 20px;
+  color: #ffffff; /* Biały tekst dla przycisków */
+  background-color: #007bff; /* Niebieskie tło dla przycisków */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.App-page {
+  margin-right: 20px;
+  color: #ffffff; /* Biały tekst dla przycisków */
+  background-color: #0f3b87; /* Niebieskie tło dla przycisków */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.App-button:hover {
+  background-color: #0056b3; /* Ciemniejszy niebieski kolor tła dla przycisków przy najechaniu */
+}
+
+.App-author {
+  font-size: 14px; /* You can adjust the font size as needed */
+  color: #61dafb; /* Optional: change the color to make it less prominent than the title */
+}
